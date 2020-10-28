@@ -1,18 +1,22 @@
 {
     "content": [
       {
-        "notifBaseId": "15000",
+        "notifBaseId": {
+            "notifId": "15000",
+            "category": "01"
+        },
         "notifLngDvCd": "en",
         "title": "title 1",
-        "ctt": "lorem ipsum",
-        "category": "01"
+        "ctt": "lorem ipsum"
       },
       {
-        "notifBaseId": "16000",
+        "notifBaseId": {
+            "notifId": "16000",
+            "category": "02"
+        },
         "notifLngDvCd": "en",
         "title": "title 2",
-        "ctt": "lorem ipsum",
-        "category": "02"
+        "ctt": "lorem ipsum"   
       }
     ]
 }
